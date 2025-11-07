@@ -1,0 +1,17 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-primary: #0070f3;
+}
+
+[data-theme="dark"] {
+  --color-bg: #111111;
+  --color-text: #e7e7e7;
+  --color-primary: #66aaff;
+}
+
+$font-primary: "Oswald", sans-serif;
+// $font-primary: "Quattrocento", serif;
+
+$primary-color: #f8fafc;
+$secondary-color: #273f4f;

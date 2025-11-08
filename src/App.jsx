@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/layout/header";
 
 const toggleTheme = () => {
   const current = document.body.getAttribute("data-theme");
@@ -11,9 +12,17 @@ const toggleTheme = () => {
 function App() {
   return (
     <>
-      <h1>Hello Enoca Landing Page</h1>
-      <button onClick={toggleTheme}>Tema Değiştir</button>
-      <button className="btn">deneme butonu</button>
+      <Header />
+      <main>
+        <Hero />
+        <Features />
+        <Pricing />
+        <FAQ />
+        <Contact />
+        <button onClick={toggleTheme}>Tema Değiştir</button>
+        <button className="btn">deneme butonu</button>
+      </main>
+      <Footer />
     </>
   );
 }
